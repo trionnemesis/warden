@@ -1,0 +1,1 @@
+insert into WM_school select school_id,'10.192.10.21',school_name,feedback,language,theme,guest,multi_login,canReg,instructRequire,guestLimit,courseQuota,quota_limit,quota_used,school_mail,counter from WM_school where school_host = '10.192.10.20';
